@@ -27,9 +27,8 @@
 		<a href="#home" class="logo" data-scroll>MTG Draft Tracker</a>
 		<nav class="nav-collapse">
 			<ul>
-					<li class="menu-item"><a href="#home" data-scroll>Account</a></li>
-				<li class="menu-item active"><a href="index.html" data-scroll>Account</a></li>
-    <li class="menu-item"><a href="add-draft.html" data-scroll>Add Draft</a></li>
+				<li class="menu-item"><a href="index.html" data-scroll>Account</a></li>
+    <li class="menu-item active"><a href="add-draft.html" data-scroll>Add Draft</a></li>
     <li class="menu-item"><a href="#logOut" data-scroll>Log Out</a></li>			
 			</ul>
 		</nav>
@@ -37,56 +36,70 @@
 	<main>
 		<section>
 			<form>
-				<label for="date">Date:</label>
-				<input type="date">
+				<div class="form-row">
+					<label for="date">Date:</label>
+					<input type="date">
+				</div>
+				<div class="form-row">				
 				<label for="set">Set:</label>
-				<select name="set-dropdown" id="set">
-					<option value="AER-KLD">AER-KLD</option>
-					<option value="KLD">KLD</option>
-					<option value="MM3">MM3</option>
-					<option value="EMN-SOI">EMN-SOI</option>
-					<option value="SOI">SOI</option>
-				</select>
-				<label for="format">Format:</label>
-				<select name="format-dropdown" id="format">
-					<option value="Swiss League">Swiss league</option>
-					<option value="Competitive League">Competitive League</option>
-					<option value="Friendly League">Friendly League</option>
-				</select>
-				<label for="colors">Colors:</label>
-				<select name="colors-dropdown" id="colors">
-					<option value="White Blue">White/Blue</option>
-					<option value="Blue Black">Blue/Black</option>
-					<option value="Black Red">Black/Red</i></option>
-					<option value="Red Green">Red/Green</option>
-					<option value="Green White">Green/White</option>
-					<option value="White Black">White/Black</option>
-					<option value="Blue Red">Blue/Red</option>
-					<option value="Black Green">Black/Green</option>
-					<option value="Red White">Red/White</option>
-					<option value="Green Blue">Green/Blue</option>
-				</select>
-				<label for="Match 1">Match 1:</label>
-				<select name="match-one" id="match-one">
-					<option value="Won 2-0">Won 2-0</option>
-					<option value="Won 2-0">Won 2-1</option>
-					<option value="Lost 1-2">Lost 1-2</option>
-					<option value="Lost 0-2">Lost 0-2</option>
-				</select>
-				<label for="Match 2">Match 2:</label>
-				<select name="match-two" id="match-two">
-					<option value="Won 2-0">Won 2-0</option>
-					<option value="Won 2-0">Won 2-1</option>
-					<option value="Lost 1-2">Lost 1-2</option>
-					<option value="Lost 0-2">Lost 0-2</option>
-				</select>
-				<label for="Match 3">Match 3:</label>
-				<select name="match-three" id="match-three">
-					<option value="Won 2-0">Won 2-0</option>
-					<option value="Won 2-0">Won 2-1</option>
-					<option value="Lost 1-2">Lost 1-2</option>
-					<option value="Lost 0-2">Lost 0-2</option>
-				</select>
+					<select name="set-dropdown" id="set">
+						<option value="AER-KLD">AER-KLD</option>
+						<option value="KLD">KLD</option>
+						<option value="MM3">MM3</option>
+						<option value="EMN-SOI">EMN-SOI</option>
+						<option value="SOI">SOI</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="format">Format:</label>
+					<select name="format-dropdown" id="format">
+						<option value="Swiss League">Swiss league</option>
+						<option value="Competitive League">Competitive League</option>
+						<option value="Friendly League">Friendly League</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="colors">Colors:</label>
+					<select name="colors-dropdown" id="colors">
+						<option value="White Blue">White/Blue</option>
+						<option value="Blue Black">Blue/Black</option>
+						<option value="Black Red">Black/Red</i></option>
+						<option value="Red Green">Red/Green</option>
+						<option value="Green White">Green/White</option>
+						<option value="White Black">White/Black</option>
+						<option value="Blue Red">Blue/Red</option>
+						<option value="Black Green">Black/Green</option>
+						<option value="Red White">Red/White</option>
+						<option value="Green Blue">Green/Blue</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="Match 1">Match 1:</label>
+					<select name="match-one" id="match-one">
+						<option value="Won 2-0">Won 2-0</option>
+						<option value="Won 2-0">Won 2-1</option>
+						<option value="Lost 1-2">Lost 1-2</option>
+						<option value="Lost 0-2">Lost 0-2</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="Match 2">Match 2:</label>
+					<select name="match-two" id="match-two">
+						<option value="Won 2-0">Won 2-0</option>
+						<option value="Won 2-0">Won 2-1</option>
+						<option value="Lost 1-2">Lost 1-2</option>
+						<option value="Lost 0-2">Lost 0-2</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="Match 3">Match 3:</label>
+					<select name="match-three" id="match-three">
+						<option value="Won 2-0">Won 2-0</option>
+						<option value="Won 2-0">Won 2-1</option>
+						<option value="Lost 1-2">Lost 1-2</option>
+						<option value="Lost 0-2">Lost 0-2</option>
+					</select>
+				</div>
 				<input type="submit" value="Submit">
 			</form>
 		</section>

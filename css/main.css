@@ -116,3 +116,13 @@ section#drafts {
 .draft-cell i {
   font-size: 14px;
 }
+
+form {
+  margin-left: 25%;
+  text-align: left;
+}
+
+.form-row {
+  display: block;
+  margin-bottom: 4px;
+}
